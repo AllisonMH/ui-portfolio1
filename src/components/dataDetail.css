@@ -1,0 +1,41 @@
+.div{
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card{
+  border-radius: 15px;
+}
+.card-img{
+
+}
+
+.cardBody{
+  height:150px;
+}
+
+.cardTitle{
+  font-size: 18px;
+  font-weight: light;
+  text-transform: capitalize;
+}
+
+.cardSubtitle{
+  font-size: 12px;
+}
+
+.cardFooter{
+  text-align: right;
+  font-weight: bold;
+  color: #4cc932;
+}
+
+.card:hover{
+  background-color: #cae0e7;
+}
+
+
+@media only screen and (max-width: 300px) {
+  .card{
+  font-weight: bold;
+  }
+}
