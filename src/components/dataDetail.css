@@ -6,7 +6,7 @@
   border-radius: 15px;
 }
 .card-img{
-
+  object-fit: cover;
 }
 
 .cardBody{
