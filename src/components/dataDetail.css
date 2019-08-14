@@ -1,19 +1,26 @@
 .div{
   margin-bottom: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.div2{
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+  height: 280px;
 }
 .card{
   border-radius: 15px;
-  height:400px;
+
 }
 .card-img{
   object-fit: cover;
-  height: 170px;
+  height: 80%;
   width: 300px;
 }
 
 .cardBody{
-  height:150px;
+  height:120px;
 }
 
 .cardTitle{
@@ -40,5 +47,16 @@
 @media only screen and (max-width: 700px) {
   .card{
   font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 1526px){
+  .card-img{
+    height: 85%;
+  }
+}
+@media only screen and (max-width: 1440px){
+  .card-img{
+    height: 75%;
   }
 }

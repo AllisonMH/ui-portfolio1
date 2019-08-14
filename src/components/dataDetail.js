@@ -41,7 +41,7 @@ class DataDetail extends Component {
         <CardImg top width="100%" src="http://res.cloudinary.com/bguggie/image/upload/v1425514882/darktiles_bg_gike55.jpg" alt="Card image cap" />
          <CardImgOverlay>
             <CardImg top width="100%" src="http://res.cloudinary.com/bguggie/image/upload/v1425514736/place_holder_zuvywg.png" alt="Card image cap" />
-          </CardImgOverlay> 
+          </CardImgOverlay>
         </div>
         )
       }
@@ -63,7 +63,9 @@ class DataDetail extends Component {
     return(
       <div className='div'>
       <Card className='card'>
-        {this.showBridge(data)}
+        <div className="div2">
+          {this.showBridge(data)}
+        </div>
           <CardBody className="cardBody">
             <CardTitle className="cardTitle">{data.Heading} </CardTitle>
             <CardSubtitle className="cardSubtitle">{data.Subheading} </CardSubtitle>
