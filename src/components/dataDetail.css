@@ -7,6 +7,8 @@
 }
 .card-img{
   object-fit: cover;
+  height: 170px;
+  width: 300px;
 }
 
 .cardBody{

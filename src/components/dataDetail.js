@@ -37,7 +37,12 @@ class DataDetail extends Component {
         )
       } else {
         return(
-        <CardImg top width="100%" src="http://res.cloudinary.com/bguggie/image/upload/v1425514736/place_holder_zuvywg.png" alt="Card image cap" />
+          <div>
+        <CardImg top width="100%" src="http://res.cloudinary.com/bguggie/image/upload/v1425514882/darktiles_bg_gike55.jpg" alt="Card image cap" />
+         <CardImgOverlay>
+            <CardImg top width="100%" src="http://res.cloudinary.com/bguggie/image/upload/v1425514736/place_holder_zuvywg.png" alt="Card image cap" />
+          </CardImgOverlay> 
+        </div>
         )
       }
     }
@@ -58,10 +63,7 @@ class DataDetail extends Component {
     return(
       <div className='div'>
       <Card className='card'>
-        <CardImg top width="100%" src="http://res.cloudinary.com/bguggie/image/upload/v1425514882/darktiles_bg_gike55.jpg" alt="Card image cap" />
-        <CardImgOverlay>
-          {this.showBridge(data)}
-        </CardImgOverlay>
+        {this.showBridge(data)}
           <CardBody className="cardBody">
             <CardTitle className="cardTitle">{data.Heading} </CardTitle>
             <CardSubtitle className="cardSubtitle">{data.Subheading} </CardSubtitle>
